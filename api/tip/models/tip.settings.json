@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tips",
+  "info": {
+    "name": "Tip"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "code": {
+      "type": "richtext"
+    },
+    "solutions": {
+      "collection": "solution",
+      "via": "tips",
+      "dominant": true
+    }
+  }
+}
