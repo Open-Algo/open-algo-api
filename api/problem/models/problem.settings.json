@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "problems",
+  "info": {
+    "name": "Problem",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "leetcode": {
+      "type": "string"
+    },
+    "solution": {
+      "type": "richtext"
+    },
+    "diagrams": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "group": {
+      "model": "tag"
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "easy",
+        "medium",
+        "hard",
+        "very_hard"
+      ]
+    },
+    "solutions": {
+      "collection": "solution",
+      "via": "problem"
+    }
+  }
+}
