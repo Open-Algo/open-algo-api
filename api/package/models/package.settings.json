@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages",
+  "info": {
+    "name": "Package"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "docs": {
+      "type": "string"
+    },
+    "solutions": {
+      "collection": "solution",
+      "via": "packages",
+      "dominant": true
+    }
+  }
+}
