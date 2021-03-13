@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "complexities",
+  "info": {
+    "name": "Complexity"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "complexity": {
+      "type": "string"
+    }
+  }
+}
