@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solutions",
+  "info": {
+    "name": "Solution",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "solution": {
+      "type": "richtext"
+    },
+    "complexities": {
+      "collection": "complexity"
+    },
+    "problem": {
+      "via": "solutions",
+      "model": "problem"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "solutions",
+      "dominant": true
+    },
+    "explanation": {
+      "type": "richtext"
+    },
+    "templates": {
+      "via": "solutions",
+      "collection": "template"
+    },
+    "tips": {
+      "via": "solutions",
+      "collection": "tip"
+    },
+    "packages": {
+      "via": "solutions",
+      "collection": "package"
+    },
+    "equations": {
+      "via": "solutions",
+      "collection": "equation"
+    }
+  }
+}
