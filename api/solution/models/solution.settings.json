@@ -18,8 +18,8 @@
       "collection": "complexity"
     },
     "problem": {
-      "via": "solutions",
-      "model": "problem"
+      "model": "problem",
+      "via": "solutions"
     },
     "tags": {
       "collection": "tag",
@@ -30,20 +30,23 @@
       "type": "richtext"
     },
     "templates": {
-      "via": "solutions",
-      "collection": "template"
+      "collection": "template",
+      "via": "solutions"
     },
     "tips": {
-      "via": "solutions",
-      "collection": "tip"
+      "collection": "tip",
+      "via": "solutions"
     },
     "packages": {
-      "via": "solutions",
-      "collection": "package"
+      "collection": "package",
+      "via": "solutions"
     },
     "equations": {
-      "via": "solutions",
-      "collection": "equation"
+      "collection": "equation",
+      "via": "solutions"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

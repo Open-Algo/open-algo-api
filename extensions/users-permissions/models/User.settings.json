@@ -67,6 +67,18 @@
     },
     "problemsByDifficulty": {
       "type": "json"
+    },
+    "image": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }

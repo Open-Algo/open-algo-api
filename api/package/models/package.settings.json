@@ -17,8 +17,8 @@
       "type": "string"
     },
     "solutions": {
-      "collection": "solution",
       "via": "packages",
+      "collection": "solution",
       "dominant": true
     }
   }

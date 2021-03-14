@@ -17,8 +17,8 @@
       "type": "richtext"
     },
     "solutions": {
-      "collection": "solution",
       "via": "equations",
+      "collection": "solution",
       "dominant": true
     }
   }

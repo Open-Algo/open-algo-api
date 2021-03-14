@@ -44,8 +44,8 @@
       ]
     },
     "solutions": {
-      "collection": "solution",
-      "via": "problem"
+      "via": "problem",
+      "collection": "solution"
     }
   }
 }
