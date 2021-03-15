@@ -14,8 +14,9 @@
     "solution": {
       "type": "richtext"
     },
-    "complexities": {
-      "collection": "complexity"
+    "time_complexity": {
+      "model": "complexity",
+      "via": "solutions"
     },
     "problem": {
       "model": "problem",
@@ -47,6 +48,10 @@
     },
     "title": {
       "type": "string"
+    },
+    "space_complexity": {
+      "model": "space-complexity",
+      "via": "solutions"
     }
   }
 }

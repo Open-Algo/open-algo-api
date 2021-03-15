@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "complexities",
   "info": {
-    "name": "Complexity"
+    "name": "Time Complexity",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,10 @@
   "attributes": {
     "complexity": {
       "type": "string"
+    },
+    "solutions": {
+      "via": "time_complexity",
+      "collection": "solution"
     }
   }
 }
