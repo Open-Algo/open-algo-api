@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/space-complexities",
+      "handler": "space-complexity.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/space-complexities/count",
+      "handler": "space-complexity.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/space-complexities/:id",
+      "handler": "space-complexity.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/space-complexities",
+      "handler": "space-complexity.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/space-complexities/:id",
+      "handler": "space-complexity.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/space-complexities/:id",
+      "handler": "space-complexity.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

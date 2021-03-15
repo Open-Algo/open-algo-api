@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "space_complexities",
+  "info": {
+    "name": "Space Complexity"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "complexity": {
+      "type": "string"
+    },
+    "solutions": {
+      "via": "space_complexity",
+      "collection": "solution"
+    }
+  }
+}
