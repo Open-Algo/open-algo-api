@@ -62,7 +62,7 @@
     "problems": {
       "collection": "problem"
     },
-    "problemsByTag": {
+    "problemsByGroup": {
       "type": "json"
     },
     "problemsByDifficulty": {
