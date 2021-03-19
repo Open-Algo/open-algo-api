@@ -30,10 +30,6 @@
     "explanation": {
       "type": "richtext"
     },
-    "templates": {
-      "collection": "template",
-      "via": "solutions"
-    },
     "tips": {
       "collection": "tip",
       "via": "solutions"
@@ -52,6 +48,11 @@
     "space_complexity": {
       "model": "space-complexity",
       "via": "solutions"
+    },
+    "templates": {
+      "collection": "template",
+      "via": "solutions",
+      "dominant": true
     }
   }
 }

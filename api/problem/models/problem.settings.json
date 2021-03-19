@@ -17,9 +17,6 @@
     "leetcode": {
       "type": "string"
     },
-    "solution": {
-      "type": "richtext"
-    },
     "diagrams": {
       "collection": "file",
       "via": "related",
@@ -46,6 +43,9 @@
     "solutions": {
       "via": "problem",
       "collection": "solution"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

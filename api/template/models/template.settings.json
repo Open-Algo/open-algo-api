@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "templates",
   "info": {
-    "name": "Template"
+    "name": "Template",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,13 +11,15 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "template": {
       "type": "richtext"
     },
     "solutions": {
       "via": "templates",
-      "collection": "solution",
-      "dominant": true
+      "collection": "solution"
     }
   }
 }
