@@ -46,6 +46,10 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "videos": {
+      "via": "problems",
+      "collection": "video"
     }
   }
 }
