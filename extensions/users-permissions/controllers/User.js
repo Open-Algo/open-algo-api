@@ -21,7 +21,7 @@ module.exports = {
         hard: {
           _total: 0,
         },
-        veryHard: {
+        very_hard: {
           _total: 0,
         },
       };
@@ -30,6 +30,9 @@ module.exports = {
           _total: 0,
         },
         Binary: {
+          _total: 0,
+        },
+        "Binary Search": {
           _total: 0,
         },
         "Binary Search Tree": {
@@ -42,6 +45,9 @@ module.exports = {
           _total: 0,
         },
         Graph: {
+          _total: 0,
+        },
+        "Hash Table": {
           _total: 0,
         },
         Heap: {
