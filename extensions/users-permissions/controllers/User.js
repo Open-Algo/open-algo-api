@@ -68,6 +68,9 @@ module.exports = {
         String: {
           _total: 0,
         },
+        Tree: {
+          _total: 0,
+        },
         Trie: {
           _total: 0,
         },
